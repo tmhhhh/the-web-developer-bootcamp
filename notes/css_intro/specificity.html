@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+
+	<!--
+		li  
+		li a  li + a
+		.hello input[type="text"] a:hover
+		#hello 
+	-->
+
+	<style type="text/css">
+		body {
+			color: red;
+		}
+
+		ul {
+			color: blue;
+		}
+
+		li {
+			color: orange;
+		}
+
+		.highligh {
+			color: yellow;
+		}
+
+		#special {
+			color: pink;
+		}
+
+	</style>
+</head>
+<body>
+
+<p>Hello!!!</p>
+
+<ul>
+	<li id="special" class="highligh">John</li>
+	<li>Paul</li>
+	<li>George</li>
+	<li class="highligh">Ringo</li>
+</ul>
+
+</body>
+</html>

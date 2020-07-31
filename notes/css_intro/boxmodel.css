@@ -1,0 +1,20 @@
+p {
+	/*文本框的宽度*/
+	/*width: 200px;*/
+	/*根据浏览器窗口大小动态调整大小*/
+	width: 50%;
+	/*height: */
+	border: 2px solid blue;
+	/*border-top: */
+
+	/*padding: 100px;*/
+	padding-left: 40px;
+
+	/*margin: 100px;*/ 
+	/*margin-top: 500px;*/
+	/*top bottom left right*/
+	/*margin: 20px 40px 500px 100px;*/
+	/*margin: 0 auto 0 auto;*/
+	 margin: 0 auto;
+
+}

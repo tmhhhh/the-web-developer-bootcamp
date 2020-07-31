@@ -1,0 +1,61 @@
+/*font-family*/
+p {
+	font-family: 'Miniver', cursive;
+}
+
+/*google fonts https://fonts.google.com/*/
+h1 {
+	font-family: 'Calligraffitti', cursive;
+}
+
+/*font-size*/
+body {
+	font-size: 10px;
+}
+
+/*Xem 原基础上放大X倍*/
+h1 {
+	font-size: 5.0em; 
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	
+	font-size: 2.0em;
+}
+
+/*font-weight*/
+p {
+	/*font-weight: bold;*/
+
+	/*100 ~ 800*/
+	font-weight: 601;
+}
+
+/*line-height*/
+p {
+	/
+	line-height: 2;
+}
+
+/*text-align*/
+
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
